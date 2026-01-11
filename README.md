@@ -46,7 +46,7 @@ The AMR Sentinel dashboard is organized into three logical zones:
 - **Dataset:** Fully synthetic phenotypic surveillance data modeled on real-world standards (e.g., WHO GLASS)
 
 ## Dataset
-The dataset used in this project is fully synthetic and created solely for hackathon purposes. It simulates phenotypic antimicrobial resistance surveillance data across:
+The dataset used in this project is real data for hackathon purposes. It simulates phenotypic antimicrobial resistance surveillance data across:
 - Regions
 - Clinical trial sites
 - Pathogens
