@@ -26,7 +26,7 @@ Yearly reporting periods used for trend analysis and anomaly detection.
 
 ## Measures
 
-### Resistance Percentage (`resistance_pct`)
+### Resistance Percentage (`resistance_percentage`)
 - Definition: Percentage of isolates resistant to a given drug class for a specific pathogen and region.
 - Aggregation: Average
 - Usage: Core indicator for resistance severity and spike detection.
@@ -49,12 +49,11 @@ Logic:
 This classification is used consistently across all dashboards for color encoding, filtering, and recommended actions.
 
 ## Temporal Modeling
-Historical data (2018–2024) is retained to establish baselines for trend analysis. The operational dashboard view focuses on the current year (2025), while historical periods support anomaly detection and contextual explanations.
+Historical data (2018–2025) is retained to establish baselines for trend analysis. The operational dashboard view focuses on the current year (2025), while historical periods support anomaly detection and contextual explanations.
 
 ## Agentic Alignment
 
 The semantic model is designed to support agentic analytics concepts:
-- **Inspector** uses time-series measures to identify abnormal deviations from historical baselines.
 - **Concierge** relies on semantic definitions to explain risk drivers in natural language.
 - **Agentforce** consumes standardized risk levels and recommended actions to enable workflow automation.
 
@@ -66,4 +65,5 @@ All data used in this project is synthetic and created solely for hackathon purp
 - Consistent aggregations across views
 - Clear separation between raw measures and derived intelligence
 - Agent-ready semantics enabling explainability and action
+
 
